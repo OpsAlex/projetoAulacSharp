@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using AulaCsharp.Services;
 using AulaCsharp.Entities;
+using System.Linq;
 
 namespace AulaCsharp
 {
@@ -22,15 +23,27 @@ namespace AulaCsharp
 
             // list.RemoveAll(p => p.Price >= 100.0);
 
-            list.RemoveAll(Product.ProductTest);
+           // list.RemoveAll(Product.ProductTest);
 
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
             }
 
-            // Aula Action
+            // Aula Func
+            Console.WriteLine("__________________________________");
+            Func<Product, string> func = NameUpper;
 
+            // List<string> result = list.Select(p => p.Name.ToUpper()).ToList() ;
+            List<string> result = list.Select(func).ToList() ;
+
+            foreach (string s in result)
+            {
+                Console.WriteLine(s);
+
+            }
+            // Aula Action
+            Console.WriteLine("__________________________________");
             Action<Product> act = UpdatePrice;
 
             // list.ForEach(p => { p.Price += p.Price * 0.1; });
@@ -42,7 +55,7 @@ namespace AulaCsharp
 
 
             // Aula Delegates ---------------------
-
+            Console.WriteLine("__________________________________");
 
             double a = 10;
             double b = 12;
@@ -53,6 +66,13 @@ namespace AulaCsharp
             op.Invoke(a, b);
             
         }
+        // Aula Func
+
+        static string NameUpper(Product p)
+        {
+            return p.Name.ToUpper();
+        }
+
         // Aula ACTION ---------------
         static void UpdatePrice(Product p)
         {
