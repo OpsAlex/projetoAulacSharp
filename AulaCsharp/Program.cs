@@ -11,7 +11,24 @@ namespace AulaCsharp
     {
         static void Main(string[] args)
         {
+            // Aula LINQ
 
+
+            // Especificar o Data Source
+            int[] numbers = new int[] { 2, 3, 4, 5, 6 };
+
+            // Definir a consulta
+
+            // IEnumerable<int> resultL = numbers.Where(x => x % 2 == 0).Select(x => x * 10);
+            var resultL = numbers.Where( x => x % 2 == 0).Select(x => x * 10);
+
+            // Executar a consulta
+
+            foreach (int x in resultL)
+            {
+                Console.WriteLine(x);
+            }
+            Console.WriteLine("__________________________________");
             //Predicate(exemplo Removeall) ----------
 
             List<Product> list = new List<Product>();
