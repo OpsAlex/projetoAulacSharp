@@ -22,13 +22,24 @@ namespace AulaCsharp
 
             // list.RemoveAll(p => p.Price >= 100.0);
 
-
             list.RemoveAll(Product.ProductTest);
 
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
             }
+
+            // Aula Action
+
+            Action<Product> act = UpdatePrice;
+
+            // list.ForEach(p => { p.Price += p.Price * 0.1; });
+            list.ForEach(act);
+            foreach (Product p in list)
+            {
+                Console.WriteLine(p);
+            }
+
 
             // Aula Delegates ---------------------
 
@@ -41,6 +52,11 @@ namespace AulaCsharp
 
             op.Invoke(a, b);
             
+        }
+        // Aula ACTION ---------------
+        static void UpdatePrice(Product p)
+        {
+            p.Price += p.Price * 0.1;
         }
 
     }
