@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mJTkV3BUmBdIxbGG+eSJOnmSgVw6moa/+u+2UlatKeZ3oD0XHoZ2A3PUeE4UYMh8E0/83uNOYujZLszbUoTT7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexb\\Desktop\\Projetos C#\\AulaCsharp\\AulaCsharp\\AulaCsharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

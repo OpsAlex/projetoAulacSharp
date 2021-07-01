@@ -1,0 +1,13 @@
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\bin\Debug\netcoreapp3.1\AulaCsharp.exe
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\bin\Debug\netcoreapp3.1\AulaCsharp.deps.json
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\bin\Debug\netcoreapp3.1\AulaCsharp.runtimeconfig.json
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\bin\Debug\netcoreapp3.1\AulaCsharp.runtimeconfig.dev.json
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\bin\Debug\netcoreapp3.1\AulaCsharp.dll
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\bin\Debug\netcoreapp3.1\AulaCsharp.pdb
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.csprojAssemblyReference.cache
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.AssemblyInfoInputs.cache
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.AssemblyInfo.cs
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.csproj.CoreCompileInputs.cache
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.dll
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.pdb
+C:\Users\alexb\Desktop\Projetos C#\AulaCsharp\AulaCsharp\obj\Debug\netcoreapp3.1\AulaCsharp.genruntimeconfig.cache
